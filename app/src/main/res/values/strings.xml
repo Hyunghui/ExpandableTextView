@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExpandableTextView</string>
+    <string name="text_short">Gooroo is a new </string>
+    <string name="text_longlong">Gooroo is a new tutoring app that helps you get connected to students or tutors near you.
+Become a Gooroo (tutor) yourself and share your talents with others in your immediate area. Being a Gooroo can be really fun and rewarding - all on your own time!
+Or become a student; the Gooroo app makes it easy to sift through countless tutor profiles that can help you achieve your goals. Students can find the right Gooroo by filtering through preselected subjects, locations, price, and time availabilities. From midterms to standardized test prep, students can gain a talent with the Gooroo app.
+The Gooroo app is tailored to fit your exact tutoring needs and we’re changing how things are done.</string>
+    <string name="show_more_text">Show more</string>
+    <string name="show_less_text">Show less</string>
+</resources>

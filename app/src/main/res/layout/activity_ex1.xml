@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:expandableview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ex1Activity">
+
+    <com.wind.expandabletextview.ExpandableView
+        android:id="@+id/Extv_body"
+        android:layout_below="@+id/tv_hollo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/black"
+        expandableview:titleText="this it the title"
+        expandableview:titleSize="15sp"
+        expandableview:titleColor="@color/colorAccent"
+        expandableview:marginBetweenTitleAndTextBody="10dp"
+        expandableview:textBodyText="@string/text_longlong"
+        expandableview:textBodySize="20sp"
+        expandableview:textBodyColor="@android:color/darker_gray"
+        expandableview:textBodyMaxLines="20"
+        expandableview:textBodyMinLines="1"
+        expandableview:marginBetweenTextBodyAndShowMoreLess="10dp"
+        expandableview:showMoreLessSize="10sp"
+        expandableview:showMoreLessColor="@android:color/holo_green_light"
+        expandableview:showMoreText="@string/show_more_text"
+        expandableview:showLessText="@string/show_less_text"
+        />
+
+</RelativeLayout>

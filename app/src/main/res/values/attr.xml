@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableView">
+        <attr name="titleSize" format="dimension"/>
+        <attr name="titleColor" format="color"/>
+        <attr name="titleText" format="string"/>
+
+        <attr name="marginBetweenTitleAndTextBody" format="dimension"/>
+        <attr name="textBodySize" format="dimension"/>
+        <attr name="textBodyColor" format="color"/>
+        <attr name="textBodyText" format="string"/>
+        <attr name="textBodyMinLines" format="integer"/>
+        <attr name="textBodyMaxLines" format="integer"/>
+
+        <attr name="marginBetweenTextBodyAndShowMoreLess" format="dimension"/>
+        <attr name="showMoreLessSize" format="dimension"/>
+        <attr name="showMoreLessColor" format="color"/>
+        <attr name="showMoreText" format="string"/>
+        <attr name="showLessText" format="string"/>
+    </declare-styleable>
+</resources>
